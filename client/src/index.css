@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent horizontal overflow on all devices */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Base typography */
+@layer base {
+  p {
+    @apply text-sm sm:text-lg;
+  }
+}
+
+/* Global styles */
+body {
+  background-color: #1A1A1A;
+  color: white;
+}
+
+/* Apply Merriweather globally */
+* {
+  font-family: 'Merriweather', serif;
+}
+
+/* Video Fade Animations */
+@keyframes fadeVideo1 {
+  0% { opacity: 1; }
+  56.5% { opacity: 1; }
+  60% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes fadeVideo2 {
+  0% { opacity: 0; }
+  56.5% { opacity: 0; }
+  60% { opacity: 1; }
+  100% { opacity: 1; }
+}
