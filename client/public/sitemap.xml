@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home -->
+  <url>
+    <loc>https://www.naglink.co.zw/</loc>
+  </url>
+
+  <!-- Core pages -->
+  <url>
+    <loc>https://www.naglink.co.zw/about</loc>
+  </url>
+
+  <url>
+    <loc>https://www.naglink.co.zw/services</loc>
+  </url>
+
+  <url>
+    <loc>https://www.naglink.co.zw/fleet</loc>
+  </url>
+
+  <url>
+    <loc>https://www.naglink.co.zw/gallery</loc>
+  </url>
+
+  <url>
+    <loc>https://www.naglink.co.zw/contact</loc>
+  </url>
+
+  <!-- Functional pages -->
+  <url>
+    <loc>https://www.naglink.co.zw/track-order</loc>
+  </url>
+
+  <url>
+    <loc>https://www.naglink.co.zw/newsandupdates</loc>
+  </url>
+
+</urlset>
