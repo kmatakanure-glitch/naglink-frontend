@@ -6,7 +6,6 @@ import truck5 from "../../assets/images/fleet/DSC05339.jpg";
 import truck6 from "../../assets/images/fleet/DSC05267.jpg";
 import truck7 from "../../assets/images/fleet/DSC05280.jpg";
 import truck8 from "../../assets/images/fleet/DSC05315.jpg";
-import companyVideo from "../../assets/videos/company-video.mp4";
 import truck9 from "../../assets/images/fleet/DSC05272.jpg";
 import truck10 from "../../assets/images/fleet/DSC05284.jpg";
 import truck11 from "../../assets/images/fleet/our team.jpg";

@@ -10,7 +10,6 @@ import {
 } from "lucide-react";
 
 import adminImage from "../../assets/images/admin/admin.jpg"; 
-//import companyVideo from "../../assets/videos/company-video.mp4";
 
 import team1 from "../../assets/images/fleet/our team.jpg";
 import team2 from "../../assets/images/fleet/admin.jpg";
