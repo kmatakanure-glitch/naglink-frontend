@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 
 import adminImage from "../../assets/images/admin/admin.jpg"; 
-import companyVideo from "../../assets/videos/company-video.mp4";
+//import companyVideo from "../../assets/videos/company-video.mp4";
 
 import team1 from "../../assets/images/fleet/our team.jpg";
 import team2 from "../../assets/images/fleet/admin.jpg";
@@ -190,7 +190,7 @@ function About() {
           </motion.div>
         </div>
       </section>
-{/* COMPANY VIDEO SECTION */}
+{/* COMPANY IMAGE SECTION (replacing video) */}
 <section className="bg-slate-950 py-24">
   <div className="mx-auto max-w-7xl px-6 lg:px-14">
     <motion.div
@@ -211,24 +211,18 @@ function About() {
         </h2>
 
         <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-300">
-          Discover how Naglink Company continues to deliver trusted
-          freight, transport, and logistics solutions through
-          professionalism, experience, and operational excellence.
+          Discover how Naglink Company continues to deliver trusted freight,
+          transport, and logistics solutions.
         </p>
       </div>
 
-      {/* VIDEO */}
+      {/* IMAGE (replacing video) */}
       <div className="mt-10">
-        <video
+        <img
+          src={team3}
+          alt="Naglink Team"
           className="h-[300px] w-full object-cover md:h-[600px]"
-          autoPlay
-          muted
-          loop
-          playsInline
-          controls
-        >
-          <source src={companyVideo} type="video/mp4" />
-        </video>
+        />
       </div>
     </motion.div>
   </div>
