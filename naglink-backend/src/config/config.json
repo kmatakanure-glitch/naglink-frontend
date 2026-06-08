@@ -1,9 +1,6 @@
 {
   "development": {
-    "username": "neondb_owner",
-    "password": "npg_ypNHFqj1E5cS",
-    "database": "neondb",
-    "host": "ep-royal-bird-ap6rxzt4-pooler.c-7.us-east-1.aws.neon.tech",
+    "use_env_variable": "DATABASE_URL",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
@@ -13,10 +10,7 @@
     }
   },
   "test": {
-    "username": "neondb_owner",
-    "password": "npg_ypNHFqj1E5cS",
-    "database": "neondb",
-    "host": "ep-royal-bird-ap6rxzt4-pooler.c-7.us-east-1.aws.neon.tech",
+    "use_env_variable": "DATABASE_URL",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
@@ -26,10 +20,7 @@
     }
   },
   "production": {
-    "username": "neondb_owner",
-    "password": "npg_ypNHFqj1E5cS",
-    "database": "neondb",
-    "host": "ep-royal-bird-ap6rxzt4-pooler.c-7.us-east-1.aws.neon.tech",
+    "use_env_variable": "DATABASE_URL",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
